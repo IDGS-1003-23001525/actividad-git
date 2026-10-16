@@ -1,0 +1,42 @@
+.contenedor-principal {
+    padding: 2rem;
+    font-family: system-ui, sans-serif;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contenedor-principal.claro {
+    background-color: #f9f9f9;
+    color: #333333;
+}
+
+.contenedor-principal.oscuro {
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+}
+
+/* Estilos dinámicos inyectados por el Contexto */
+.btn-claro {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-oscuro {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-claro:hover,
+.btn-oscuro:hover {
+    opacity: 0.85;
+}
